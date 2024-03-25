@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(Gradient-Blue-Abstract-background-Graphics-21828028-1.jpg);
+    background-size: cover;
+    padding: 1% 20%;
+    color: rgb(100, 100, 100);
+}
+
+.cabeçalho {
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+form {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 2% 5% 5% 4%;
+    font-size: 18px;
+    border: none;
+}
+
+label {
+    display: block;
+    padding: 2% 0;
+    color: rgb(100, 100, 100);
+}
+
+.dados input{
+    height: 33px;
+    width: 97.5%;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 2%;
+    border: solid 1px  rgb(100, 100, 100);
+    font-size: 16px;
+}
+
+select {
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+textarea {
+    height: 100%;
+    width: 96%;
+    font-size: 20px;
+    padding: 2%;
+    color: rgb(100, 100, 100);
+    border-radius: 7px;
+}
+
+#title {
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: -30px;
+}
+
+#dropdown1, #dropdown2 {
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 1%;
+}
+
+#submit {
+    width: auto;
+    height: 30px;
+    border: solid 1px rgb(100, 100, 100);
+    background: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    padding: 1% 2% 3.5% 2%;
+    align-items: center;
+}
+
+#submit:hover {
+    background-color: rgb(173, 173, 173);
+    color: white;
+    cursor: pointer;
+}
+
+.dev, a {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 1100px) {
+
+    body {
+        padding: 1% 3%;
+    }
+
+}

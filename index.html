@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Pesquisa</title>
+<link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <div class="cabeçalho">
+          <h1 id="title">Formulário de Pesquisa</h1>
+          <p id="description">Esse projeto tem o objetivo de mostrar de forma simples a aplicação e usabilidade de um formulário de pesquisa.</p>
+      </div>
+      <form id="survey-form">
+        <div class="dados">
+          <label id="name-label">Nome</label><input id="name" type="text" required placeholder="Digite seu nome">
+          <label id="email-label">E-mail</label><input id="email" type="email" required placeholder="Digite seu e-mail">
+          <label id="number-label">Idade (opcional)</label><input id="number" type="number" min="18" max="100" required placeholder="Digite sua idade">
+        </div>
+        <p>Qual sua área de interesse?</p>
+        <select name="area-interesse" id="dropdown1" aria-placeholder=>
+          Selecione uma área
+          <option>Selecione uma área</option>
+          <option>Tecnologia</option>
+          <option>Negócios</option>
+          <option>Desenvolvimento Humano</option>
+          <option>Comunicação</option>
+          <option>Saúde</option>
+          <option>Outro</option>
+        </select>
+        <p>Possui experiência na área?</p>
+        <label for="sim"><input id="sim" type="radio" value="S" name="s" required/> Sim</label>
+        <label for="nao"><input id="nao" type="radio" value="N" name="s" required/> Não</label>
+        <p>Qual opção melhor descreve sua função atual?</p>
+        <select name="soft-skills"  id="dropdown2">
+          <option>Selecione sua função atual</option>
+          <option>Estudante</option>
+          <option>Trabalho em tempo integral</option>
+          <option>Aluno em tempo integral</option>
+          <option>Prefiro não dizer</option>
+          <option>Outro</option>
+        </select>
+        <p>Quais soft skills deseja desenvolver? (Marque todas as opções aplicáveis)</p>
+        <label for="c1"><input id="c1" type="checkbox" value="1" name="c1"/> Proatividade</label>
+        <label for="c2"><input id="c2" type="checkbox" value="2" name="c2"/> Trabalho em equipe</label>
+        <label for="c3"><input id="c3" type="checkbox" value="3" name="c3"/> Relacionamento Interpessoal</label>
+        <label for="c4"><input id="c4" type="checkbox" value="4" name="c4"/> Liderança</label>
+        <label for="c5"><input id="c5" type="checkbox" value="5" name="c5"/> Flexibilidade</label>
+        <label for="c6"><input id="c6" type="checkbox" value="6" name="c6"/> Criatividade</label>
+        <label for="c7"><input id="c7" type="checkbox" value="7" name="c7"/> Resolução de problemas</label>
+        <p>Algum comentário ou sugestão?</p>
+        <textarea rows="5" cols="30" ></textarea>
+        <label for="submit"><input id="submit" type="submit"/></label>
+      </form>
+    </main>
+    <footer>
+      <p class="dev">Developed by <a target="_blank" href="https://www.linkedin.com/in/matheus-carvalho-5b872925a/">Matheus Carvalho</a></p>
+    </footer>
+  </body>
+</html>
