@@ -96,4 +96,8 @@ textarea {
         padding: 1% 3%;
     }
 
+    .dados input{
+        width: 96%;
+    }
+
 }
